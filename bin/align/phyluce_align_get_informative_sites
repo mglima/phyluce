@@ -28,7 +28,7 @@ def get_args():
             description="""Count the number of informative sites in a given set of alignment"""
         )
     parser.add_argument(
-            '--alignments',
+            '--input',
             required=True,
             type=is_dir,
             action=FullPaths,
